@@ -1,0 +1,71 @@
+/* Utility */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+/* /Utility */
+
+.container{
+    width: 90%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header */
+.logo{
+    width: 40%;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: grey;
+    margin-right: 20px;
+}
+nav{
+    margin-top: 20px;
+}
+.header_bottom{
+    width: 100%;
+}
+.header_img{
+    width: 100%;
+    margin-top: 20px;
+}
+.header_text{
+    position: relative;
+    bottom: 200px;
+    left: 50px;
+}
+/* /Header */
+
+/* title and main text */
+.main_content{
+    width: 100%;
+}
+/* left */
+.left_text{
+    padding: 10px;
+}
+aside , main{
+    height: 500px;
+    float: left;
+}
+aside{
+    width: 25%;
+}
+main{
+    width: 50%;
+    background-color: darksalmon;
+}
+/* /title and main text */
+
+footer{
+    height: 70px;
+    background-color: darkseagreen;
+}
