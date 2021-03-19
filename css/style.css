@@ -42,15 +42,13 @@ nav{
 .header_text{
     color: black;
     margin-top: 20px;
+    margin-left: 20px;
     position: relative;
     top: 500px;
 }
 .header_img{
     width: 100%;
     margin-top: 20px;
-}
-.header_text{
-    margin-left: 20px;
 }
 /* /Header */
 
