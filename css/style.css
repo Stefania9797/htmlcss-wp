@@ -9,6 +9,9 @@
     content: "";
     clear: both;
 }
+img{
+    border-radius: 10px;
+}
 /* /Utility */
 
 .container{
@@ -53,7 +56,6 @@ p{
     color: grey;
 }
 aside , main{
-    height: 500px;
     float: left;
 }
 aside{
@@ -61,14 +63,13 @@ aside{
 }
 main{
     width: 50%;
-    background-color: darksalmon;
 }
 .center_img{
     width: 100%;
 }
 /* /title and main text */
-
 footer{
-    height: 70px;
-    background-color: darkseagreen;
+    text-align: center;
+    margin: auto;
+
 }
