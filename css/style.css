@@ -31,7 +31,8 @@ a{
     border-radius: 20px;
     filter: contrast(60%);
     width: 100%;
-    height: 683px;
+    height: 640px;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../img/banner.jpg);
@@ -40,7 +41,7 @@ a{
     color: black;
     margin-left: 20px;
     position: relative;
-    top: 500px;
+    top: 450px;
 }
 /* /Header */
 
