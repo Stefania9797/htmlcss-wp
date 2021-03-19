@@ -27,9 +27,6 @@ a{
     color: grey;
     margin-right: 20px;
 }
-nav{
-    margin-top: 20px;
-}
 .header_bottom{
     border-radius: 20px;
     filter: contrast(60%);
@@ -41,16 +38,23 @@ nav{
 }
 .header_text{
     color: black;
-    margin-top: 20px;
     margin-left: 20px;
     position: relative;
     top: 500px;
 }
-.header_img{
+/* /Header */
+
+/* Repeated rules */
+.main_content .center_img .header_img{
     width: 100%;
+}
+p , h4 , footer{
+    margin-top: 10px;
+}
+nav , .header_text , .header_img .title{
     margin-top: 20px;
 }
-/* /Header */
+/* / Repeated rules */
 
 /* left , right and center */
 .left_img , .center_img , .right_img{
@@ -72,19 +76,11 @@ nav{
 .right_img{
     background-image: url(../img/img-3.jpg);
 }
-.main_content{
-    width: 100%;
-}
-p{
-    margin-top: 10px;
-    color: grey;
-}
 .title{
-    margin-top: 20px;
     margin-bottom: 20px;
 }
-h4{
-    margin-top: 10px;
+p{
+    color: grey;
 }
 aside , main{
     float: left;
@@ -103,11 +99,7 @@ main{
 .right{
     margin-left: 1%;
 }
-.center_img{
-    width: 100%;
-}
 /* /left, right and center */
 footer{
     text-align: center;
-    margin-top: 10px;
 }
